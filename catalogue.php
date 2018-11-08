@@ -57,10 +57,14 @@ if(!empty($_POST['ajoutPanier'])){
 <body style="background-image: url(images/fondecran.png);
     background-attachment: fixed;
     background-size: 500px;">
-<?php
+    <?php
         include 'template/header.php';
+    ?>
+    <div style="display: flex;">
+    <?php
         include 'template/produit.php';
     ?>
+    </div>
     <footer>
     <?php include 'template/footer.php';?>
     </footer>

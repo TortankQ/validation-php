@@ -11,6 +11,7 @@
       <li><a href="./home.php">Home</a></li>
       <li><a href="./catalogue.php">Catalogue</a></li>
       <li><a href="./panier.php">Panier</a></li>
+      <li><a href="./contact.php">Contact</a></li>
       <?php
         if($_SESSION['uname'] == 'tayfun'){
             echo '<li><a href="./ajoutProduit.php">Ajouter Produit</a></li>';

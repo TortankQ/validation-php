@@ -81,7 +81,9 @@ if(!empty($_POST['uname']) && !empty($_POST['psw'])){
     }
 </style>
 </head>
-<body>
+<body style="background-image: url(images/fondecran.png);
+    background-attachment: fixed;
+    background-size: 500px;">
     <?php include 'template/login.php'; ?>
 </body>
 </html>
